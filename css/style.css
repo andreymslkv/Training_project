@@ -86,11 +86,12 @@ body {
   background-color: #f1f2f3;
 }
 
-.header__container {
+.header__container,
+.main__container {
   max-width: 100%;
   margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 65px;
+  padding-left: 65px;
 }
 
 .logo {
@@ -174,3 +175,25 @@ body {
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
+
+.main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about__text {
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 24px;
+  line-height: 36px;
+  border-bottom: 1px solid #778f75;
+}
+
+.about__img {}
