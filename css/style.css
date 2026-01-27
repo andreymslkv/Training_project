@@ -181,6 +181,14 @@ body {
   padding-bottom: 50px;
 }
 
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #98714e;
+}
+
 .about {
   display: flex;
   align-items: center;
